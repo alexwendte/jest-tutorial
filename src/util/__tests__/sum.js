@@ -10,6 +10,8 @@ cases(
   'work for valid cases',
   ({ input, output }) => expect(sum(...input)).toBe(output),
   [
+    // [1, 2] is an input we want to test
+    // 3 is the output we are expecting
     [[1, 2], 3],
     [[2, 2], 4],
     [[3, 2], 5],
@@ -18,7 +20,6 @@ cases(
     [[15, 2], 17],
     [[16, 2], 18]
   ].map(([input, output]) => ({
-    title: `${input} => ${output}`,
     input,
     output
   }))
@@ -37,7 +38,6 @@ cases(
     [['a', 1], 'inputs must be numbers'],
     [[[], 1], 'inputs must be numbers']
   ].map(([input, output]) => ({
-    title: `${input} => ${output}`,
     input,
     output
   }))
