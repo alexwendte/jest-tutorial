@@ -1,0 +1,23 @@
+{
+  "name": "jest-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexwendte/jest-tutorial.git"
+  },
+  "author": "Alex Wendte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexwendte/jest-tutorial/issues"
+  },
+  "homepage": "https://github.com/alexwendte/jest-tutorial#readme",
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "jest-in-case": "^1.0.2"
+  }
+}
